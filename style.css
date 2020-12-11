@@ -130,6 +130,7 @@ footer p{
     main aside{
         width:80%;
         font-size:2rem;
+        overflow: hidden;
     }
  
     }
