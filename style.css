@@ -1,0 +1,142 @@
+html{
+    font-size:16px;
+    font-family: 'Alegreya' !important;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    min-width: 550px; 
+  
+    background-color:#101511;
+    color:#FFD900;
+    
+}
+
+
+
+
+main{
+   display: flex;
+   justify-content: space-around;
+   height: auto;
+   flex-wrap: wrap;
+}
+main aside{
+    width: 300px;
+    background-color:#FFD900;
+    height:auto;
+    text-align: center;
+    margin:30px;
+    color:#080E09;
+}
+main aside p{
+    font-size: 1.5rem;
+    padding-bottom:10px ;
+}
+.right{
+    display:grid;
+    justify-content: center;
+}
+
+
+
+#skillimg{
+    width: 280px;
+    height:300px;
+    margin:10px 10px 10px 10px;
+    filter: drop-shadow(2px 2px 4px #000000);
+    align-self: center;
+}
+
+main .face{
+max-width: 525px;
+width: 525px;
+margin: 30px;
+height: auto;
+}
+footer{
+    height: auto;
+  
+    width:100%;
+   
+   
+}
+footer .content{
+    border-top:2px solid white;
+}
+header{
+  
+    
+    width:100%;
+
+    
+}
+header .content{
+    border-bottom:2px solid white;
+}
+header p {
+    padding:50px;
+    font-family: 'Alegreya';
+    font-size: 2rem;
+    line-height: 1.2;
+}
+header h1{
+    padding:50px 50px 10px 50px ;
+  
+    font-size: 3rem;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+main h2{
+    padding:10px 50px 10px 50px ;
+    font-size: 2.5rem;
+    color:#5d6d7c;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+main li{
+    font-size:1.75rem;
+    text-decoration: underline;
+    list-style-type: circle;
+}
+
+.left ul{
+    height: 85%;  
+    display: grid;
+    list-style-type: circle;
+    justify-items: center;
+    align-items: center;
+}
+footer h2{
+    padding:10px 50px 10px 50px ;
+   
+    font-size: 2.5rem;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+footer p{
+    font-size: 1.75rem;
+    text-align: center;
+    line-height: 1.4;
+
+    }
+@media only screen and (orientation:landscape),(max-width: 600px){
+   
+    main aside{
+        width:80%;
+        font-size:2rem;
+    }
+ 
+    }
+    @media only screen and (min-width: 1024px){
+   
+        main aside{
+            width:300px;
+        }
+
+    }
