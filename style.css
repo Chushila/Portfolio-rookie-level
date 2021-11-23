@@ -35,11 +35,20 @@ main aside p{
     padding-bottom:10px ;
 }
 .right{
-    display:grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
+.left li{
+    margin: 0.2em;
+}
 
 #skillimg{
     width: 280px;
@@ -101,15 +110,17 @@ main h2{
 main li{
     font-size:1.75rem;
     text-decoration: underline;
-    list-style-type: circle;
+    list-style-type: none;
 }
+
 
 .left ul{
     height: 85%;  
     display: grid;
-    list-style-type: circle;
+    list-style-type: none;
     justify-items: center;
     align-items: center;
+    
 }
 footer h2{
     padding:10px 50px 10px 50px ;
@@ -125,6 +136,13 @@ footer p{
     line-height: 1.4;
 
     }
+    li:hover{
+        color: #5d6d7c;
+    }
+    
+
+
+
 @media only screen and (orientation:landscape),(max-width: 600px){
    
     main aside{
@@ -136,8 +154,14 @@ footer p{
     }
     @media only screen and (min-width: 1024px){
    
+        main{
+            font-size: 30px;
+        }
+    
         main aside{
             width:300px;
         }
 
     }
+
+   
